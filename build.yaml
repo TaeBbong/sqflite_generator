@@ -1,0 +1,6 @@
+targets:
+  $default:
+    builders:
+      sqflite_generator|sqliteHelperBuilder:
+        generate_for:
+          - lib/models/*.dart
